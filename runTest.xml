@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Object">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="appURL" value="https://hrm.anhtester.com/"/>
+
+    <test name="Simple test">
+        <classes>
+            <class name="pomtest.testcases.LogInTest">
+                <methods>
+                    <include name="userTruePassNull" />
+                    <include name="userNullPassNull" />
+                    <include name="userTruePassLessThan6" />
+                    <include name="userTruePassMoreThan6ButFalse" />
+                    <include name="logInSuccessful" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

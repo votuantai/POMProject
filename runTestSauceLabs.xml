@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Saucelabs text suite">
+    <test name="Simple test">
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="platform" value="macOS 11.00"/>
+    <parameter name="appURL" value="https://hrm.anhtester.com/"/>
+        <classes>
+            <class name="pomtest.testcases.LogInTest">
+                <methods>
+                    <include name="userTruePassNull" />
+                    <include name="userNullPassNull" />
+                    <include name="userTruePassLessThan6" />
+                    <include name="userTruePassMoreThan6ButFalse" />
+                    <include name="logInSuccessful" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

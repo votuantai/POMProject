@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: pomtest.testcases.LogInTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 7, Time elapsed: 0.416 s <<< FAILURE! - in pomtest.testcases.LogInTest
+pomtest.testcases.LogInTest.initializeTestBaseSetUp  Time elapsed: 0.277 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browserType' is required by BeforeClass on method initializeTestBaseSetUp but has not been marked @Optional or defined
+
+

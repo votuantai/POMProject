@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ProjectWithMaven" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ProjectWithMaven" options="--add-exports jakarta.activation/org.openqa.selenium.firefox=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.chrome=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.support.ui=ALL-UNNAMED --add-exports jakarta.activation/org.openqa.selenium.remote=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maven Object]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="appURL" value="https://hrm.anhtester.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="Simple test(failed)" verbose="0">
+    <classes>
+      <class name="pomtest.testcases.LogInTest">
+        <methods>
+          <include name="initializeTestBaseSetUp"/>
+          <include name="userTruePassNull"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="userNullPassNull"/>
+          <include name="userTruePassLessThan6"/>
+          <include name="userTruePassMoreThan6ButFalse"/>
+          <include name="logInSuccessful"/>
+        </methods>
+      </class> <!-- pomtest.testcases.LogInTest -->
+    </classes>
+  </test> <!-- Simple test(failed) -->
+</suite> <!-- Failed suite [Maven Object] -->
