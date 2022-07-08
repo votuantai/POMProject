@@ -6,12 +6,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pomtest.bases.BaseSetUp;
 //import pomtest.bases.BaseSetUpSauceLabs;
+import pomtest.com.common.ultilities.ExcelData;
 import pomtest.pages.LogInPage;
 
 public class LogInTest extends BaseSetUp {
 
     private WebDriver driver;
     public  LogInPage logInPage;
+    public ExcelData excelData;
 
     @BeforeClass
     public void setUp() { driver = getDriver(); }
@@ -39,7 +41,9 @@ public class LogInTest extends BaseSetUp {
 
     @Test(priority = 5)
     public void logInSuccessful() {
-        logInPage.login("admin01", "123456");
+        excelData = new ExcelData();
+        excelData.setExcelFilePath("src/main/resources/testdata.xlsx", "Sheet1");
+        logInPage.login(excelData.getCellData("Username", 1), excelData.getCellData("Password", 1));
     }
 
 }

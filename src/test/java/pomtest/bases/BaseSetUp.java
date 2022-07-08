@@ -11,8 +11,6 @@ import pomtest.com.common.ultilities.Log;
 import java.time.Duration;
 import java.util.Arrays;
 
-
-
 public class BaseSetUp {
     private WebDriver driver;
 

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-07T11:31:57 ICT" name="Maven Object" finished-at="2022-07-07T11:32:10 ICT" duration-ms="13479">
+  <suite started-at="2022-07-07T14:19:34 ICT" name="Maven Object" finished-at="2022-07-07T14:19:50 ICT" duration-ms="16542">
     <groups>
     </groups>
-    <test started-at="2022-07-07T11:31:57 ICT" name="Simple test" finished-at="2022-07-07T11:32:10 ICT" duration-ms="13479">
+    <test started-at="2022-07-07T14:19:34 ICT" name="Simple test" finished-at="2022-07-07T14:19:50 ICT" duration-ms="16542">
       <class name="pomtest.testcases.LogInTest">
-        <test-method is-config="true" signature="initializeTestBaseSetUp(java.lang.String,java.lang.String)[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:31:57 ICT" name="initializeTestBaseSetUp" finished-at="2022-07-07T11:32:01 ICT" duration-ms="4379" status="PASS">
+        <test-method is-config="true" signature="initializeTestBaseSetUp(java.lang.String,java.lang.String)[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:34 ICT" name="initializeTestBaseSetUp" finished-at="2022-07-07T14:19:40 ICT" duration-ms="6096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,31 +23,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:01 ICT" name="setUp" finished-at="2022-07-07T11:32:01 ICT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:40 ICT" name="setUp" finished-at="2022-07-07T14:19:40 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userTruePassNull()[pri:1, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:01 ICT" name="userTruePassNull" finished-at="2022-07-07T11:32:02 ICT" duration-ms="379" status="PASS">
+        <test-method signature="userTruePassNull()[pri:1, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:40 ICT" name="userTruePassNull" finished-at="2022-07-07T14:19:40 ICT" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userTruePassNull -->
-        <test-method signature="userNullPassNull()[pri:2, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:02 ICT" name="userNullPassNull" finished-at="2022-07-07T11:32:02 ICT" duration-ms="245" status="PASS">
+        <test-method signature="userNullPassNull()[pri:2, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:40 ICT" name="userNullPassNull" finished-at="2022-07-07T14:19:41 ICT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userNullPassNull -->
-        <test-method signature="userTruePassLessThan6()[pri:3, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:02 ICT" name="userTruePassLessThan6" finished-at="2022-07-07T11:32:02 ICT" duration-ms="255" status="PASS">
+        <test-method signature="userTruePassLessThan6()[pri:3, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:41 ICT" name="userTruePassLessThan6" finished-at="2022-07-07T14:19:41 ICT" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userTruePassLessThan6 -->
-        <test-method signature="userTruePassMoreThan6ButFalse()[pri:4, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:02 ICT" name="userTruePassMoreThan6ButFalse" finished-at="2022-07-07T11:32:02 ICT" duration-ms="272" status="PASS">
+        <test-method signature="userTruePassMoreThan6ButFalse()[pri:4, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:41 ICT" name="userTruePassMoreThan6ButFalse" finished-at="2022-07-07T14:19:41 ICT" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userTruePassMoreThan6ButFalse -->
-        <test-method signature="logInSuccessful()[pri:5, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:02 ICT" name="logInSuccessful" finished-at="2022-07-07T11:32:08 ICT" duration-ms="5586" status="PASS">
+        <test-method signature="logInSuccessful()[pri:5, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:41 ICT" name="logInSuccessful" finished-at="2022-07-07T14:19:48 ICT" duration-ms="6793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInSuccessful -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T11:32:08 ICT" name="tearDown" finished-at="2022-07-07T11:32:10 ICT" duration-ms="2334" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pomtest.testcases.LogInTest@3ce1e309]" started-at="2022-07-07T14:19:48 ICT" name="tearDown" finished-at="2022-07-07T14:19:50 ICT" duration-ms="2375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
